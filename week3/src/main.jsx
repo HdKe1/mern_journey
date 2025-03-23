@@ -1,10 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import Textstate from './Textstate'
+import LoginForm from './LoginForm'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Textstate></Textstate>
+   <LoginForm></LoginForm>
   </StrictMode>
 )
