@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function LoginForm() {
+function Form() {
   const [text, setText] = useState("");
 
   const handleChange = (event) => {
@@ -34,4 +34,4 @@ function LoginForm() {
   );
 }
 
-export default LoginForm;
+export default Form;
